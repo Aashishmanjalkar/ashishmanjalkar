@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Manjalkar | Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">Ashish Manjalkar</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Ashish Manjalkar</span></h1>
+                <h2>Full Stack Developer with 3+ Years Experience</h2>
+                <p>I build robust, scalable web applications using modern technologies across the stack.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn-outline">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- <img src="https://th.bing.com/th/id/OIP.0S6lMqeZIX-QNfPvLuCobwHaLH?r=0&cb=iwc2&rs=1&pid=ImgDetMain" alt="Developer Illustration"> -->
+                <div class="tech-stack">
+                    <i class="fab fa-laravel" title="Laravel"></i>
+                    <i class="fab fa-react" title="React"></i>
+                    <i class="fab fa-node-js" title="Node.js"></i>
+                    <i class="fab fa-docker" title="Docker"></i>
+                    <i class="fab fa-aws" title="AWS"></i>
+                </div>
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="dots"></div>
+                        <div class="title">bash</div>
+                    </div>
+                    <div class="terminal-body">
+                        <span class="prompt">$</span> npm run deploy<br>
+                        <span class="output">> Successfully deployed!</span>
+                    </div>
+                </div>
+                <div class="achievements">
+                    <div class="badge">3+ Years Exp</div>
+                    <div class="badge">10+ Projects</div>
+                    <div class="badge">FinTech Expert</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Full Stack Developer with 3 years of experience building web applications for fintech and other industries.</p>
+                    <p>My expertise includes developing RESTful APIs, implementing payment systems, optimizing performance, and creating scalable solutions with modern technologies.</p>
+                    <p>When I'm not coding, I enjoy learning new technologies.</p>
+                    
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Bachelor of Science in Statistics</h4>
+                            <p>Guru Nanak Khalsa College, Mumbai</p>
+                            <p>2018 – 2021 | CGPA: 6.97</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="/images/profile_pic.jpg" alt="Ashish Manjalkar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-laravel"></i>
+                    <h3>Laravel</h3>
+                    <p>Expert in MVC architecture, Eloquent ORM, and Laravel ecosystem.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>React.js, Node.js, and modern ES6+ features.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-php"></i>
+                    <h3>PHP</h3>
+                    <p>Strong OOP principles and modern PHP features.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>MySQL, MongoDB, and query optimization.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-docker"></i>
+                    <h3>Docker</h3>
+                    <p>Containerization and deployment workflows.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS</h3>
+                    <p>Cloud services and infrastructure.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git"></i>
+                    <h3>Git & CI/CD</h3>
+                    <p>Version control, GitLab, Jenkins pipelines.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Redis</h3>
+                    <p>Caching and performance optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/211904_social_github_icon.svg" alt="Distributed Task Master">
+                    <div class="project-info">
+                        <h3>Distributed Task Master</h3>
+                        <p>Developed a distributed task processing system using Node.js and RabbitMQ.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>RabbitMQ</span>
+                            <span>Docker</span>
+                        </div>
+                        <a href="https://github.com/Aashishmanjalkar/rabbitmq" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/211904_social_github_icon.svg" class="github-icon" alt="School Management">
+                    <div class="project-info">
+                        <h3>School Management System</h3>
+                        <p>Comprehensive admin system for schools with Laravel backend.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Admin Panel</span>
+                        </div>
+                        <a href="https://github.com/Aashishmanjalkar/school-managment" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/images/3146788_youtube_logo_icon.png"  YouTube Clone">
+                    <div class="project-info">
+                        <h3>YouTube Clone</h3>
+                        <p>Functional YouTube clone with React.js and Rapid API integration.</p>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Tailwind CSS</span>
+                            <span>Rapid API</span>
+                        </div>
+                        <a href="https://youtube-clone-ashish.netlify.app/" class="btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">June 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer 2</h3>
+                        <h4>Homeville Group</h4>
+                        <ul>
+                            <li>Developed core fintech solutions for NBFC with focus on scalability</li>
+                            <li>Implemented financial modules (part-payment, charges, disbursement)</li>
+                            <li>Integrated payment gateway APIs and optimized transaction performance</li>
+                            <li>Enhanced security protocols for customer data protection</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">April 2022 - June 2024</div>
+                    <div class="timeline-content">
+                        <h3>Software Developer</h3>
+                        <h4>Big Rattle Technologies</h4>
+                        <ul>
+                            <li>Full stack development using Agile methodologies</li>
+                            <li>Boosted user engagement by 20% through performance optimizations</li>
+                            <li>Implemented iOS In-App purchases and Stripe/Go-cardless integrations</li>
+                            <li>Developed RESTful APIs for improved data communication</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <h3>The Complete 2023 Web Development Bootcamp</h3>
+                    <p>Dr. Angela Yu - Udemy</p>
+                    <a href="#" class="btn-small">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>Have a project in mind or looking to hire a Full Stack Developer? Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> manjalkarashish25@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +91-9823787959</p>
+                        <p><i class="fas fa-globe"></i>ashishmanjalkar.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Aashishmanjalkar"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ashish-manjalkar/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ashish Manjalkar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
