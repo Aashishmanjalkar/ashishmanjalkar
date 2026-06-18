@@ -1,0 +1,17 @@
+<svg width="600" height="338" viewBox="0 0 600 338" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="338" rx="24" fill="#111827"/>
+  <rect x="24" y="24" width="552" height="40" rx="12" fill="#1F2937"/>
+  <circle cx="54" cy="44" r="8" fill="#EF4444"/>
+  <circle cx="82" cy="44" r="8" fill="#F59E0B"/>
+  <circle cx="110" cy="44" r="8" fill="#10B981"/>
+  <rect x="48" y="86" width="260" height="18" rx="9" fill="#E11D48"/>
+  <rect x="48" y="116" width="520" height="12" rx="6" fill="#374151"/>
+  <rect x="48" y="136" width="460" height="12" rx="6" fill="#374151"/>
+  <rect x="48" y="156" width="520" height="12" rx="6" fill="#374151"/>
+  <rect x="48" y="186" width="580" height="12" rx="6" fill="#1F2937"/>
+  <rect x="48" y="206" width="320" height="12" rx="6" fill="#1F2937"/>
+  <rect x="48" y="236" width="520" height="18" rx="9" fill="#E11D48"/>
+  <polygon points="122,262 158,248 158,276" fill="white"/>
+  <text x="48" y="70" fill="#E5E7EB" font-family="Inter, sans-serif" font-size="16" font-weight="700">YouTube Clone</text>
+  <text x="48" y="300" fill="#E5E7EB" font-family="Inter, sans-serif" font-size="12">Responsive UI with live video search</text>
+</svg>
