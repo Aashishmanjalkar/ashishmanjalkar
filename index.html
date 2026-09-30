@@ -7,6 +7,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"><link rel="stylesheet" href="styles.css">
+  <style>
+    /* Equal-width, equal-height project cards for a balanced project row. */
+    .projects-grid { grid-template-columns: repeat(3, 1fr); align-items: stretch; }
+    .project-card { display: flex; flex-direction: column; }
+    .project-image, .featured-project .project-image { height: 210px; }
+    .project-content { display: flex; flex: 1; flex-direction: column; }
+    .project-link { margin-top: auto; }
+    @media (max-width: 800px) { .projects-grid { grid-template-columns: repeat(2, 1fr); } .featured-project { grid-column: span 2; } }
+    @media (max-width: 520px) { .projects-grid { grid-template-columns: 1fr; } .featured-project { grid-column: auto; } .project-image, .featured-project .project-image { height: 200px; } }
+  </style>
 </head>
 <body>
   <nav class="site-nav"><div class="container nav-inner"><a href="#top" class="logo">AM<span>.</span></a><div class="nav-links"><a href="#about">About</a><a href="#expertise">Expertise</a><a href="#work">Work</a><a href="#experience">Experience</a></div><a href="#contact" class="nav-cta">Let's talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></nav>
